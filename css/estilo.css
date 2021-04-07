@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    background: url(../img/pascal-meier-1uVCTVSn-2o-unsplash.jpg) no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav.navbar-transparente {
+    background: transparent;
+}
+
+.config-brand {
+    color: #FE5000;
+    display: inline;
+    padding: 0px;
+    margin-left: 0px;
+    font-size: small;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FE5000;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.6);
+}
+
+.container-fluid {
+    width: 98%;
+}
+.card {
+    width: 55rem;
+    margin: auto;
+    margin-top: 100px;
+}
+.card-body {
+    background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: #000;
+    }
+
+    .card {
+        margin-top: 7.5rem;
+        width: auto;
+    }
+  }
